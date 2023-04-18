@@ -1,3 +1,54 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+
+body {
+    background-color: white;
+    color: darkslategrey;
+}
+h1 {
+    text-align: center;
+}
+
+img {
+    border: 5px solid black;
+}
+
+.nav{
+    background-color: darkgray
+}
+
+nav li{
+    list-style: none;
+    color: white;
+    padding: 5px 20px;
+}
+
+ul{
+    display: flex;
+    font-size: 18px;
+    text-align: left;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    color: burlywood ;
+
+}
+
+.freja img {
+    margin: 0px 50px 0px 0px;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+   
+}
